@@ -1,0 +1,2343 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8ed06ffecb584f4aa8943925b40d3d38 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_8ed06ffecb584f4aa8943925b40d3d38" ></div>
+        
+</body>
+<script>    
+    
+            var map_8ed06ffecb584f4aa8943925b40d3d38 = L.map(
+                "map_8ed06ffecb584f4aa8943925b40d3d38",
+                {
+                    center: [30.7333, 76.7794],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_940a20a592a74490b13205ab27c95fdb = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+            var circle_marker_843ecf5a3e9a4474b69c1b092fe50105 = L.circleMarker(
+                [30.7298407679, 76.773198545],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_c7fe5b276eb8446196bbd510bf5a4675 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_65578696b0eb427e9e7dd0aa7364fe19 = $(`<div id="html_65578696b0eb427e9e7dd0aa7364fe19" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, Hotel Aquamarine, Sector 22C, Near Sector 22, Chandigarh</div>`)[0];
+            popup_c7fe5b276eb8446196bbd510bf5a4675.setContent(html_65578696b0eb427e9e7dd0aa7364fe19);
+        
+
+        circle_marker_843ecf5a3e9a4474b69c1b092fe50105.bindPopup(popup_c7fe5b276eb8446196bbd510bf5a4675)
+        ;
+
+        
+    
+    
+            var circle_marker_718d269874264df780f81a7474e434d0 = L.circleMarker(
+                [0.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_f3c5c075a08b4699ad0fc35b43cd1637 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b84c9ebb98ae47fdaa5aa380cd350857 = $(`<div id="html_b84c9ebb98ae47fdaa5aa380cd350857" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, None</div>`)[0];
+            popup_f3c5c075a08b4699ad0fc35b43cd1637.setContent(html_b84c9ebb98ae47fdaa5aa380cd350857);
+        
+
+        circle_marker_718d269874264df780f81a7474e434d0.bindPopup(popup_f3c5c075a08b4699ad0fc35b43cd1637)
+        ;
+
+        
+    
+    
+            var circle_marker_f4f1238d92c746258b2506562f3f1d0d = L.circleMarker(
+                [30.7398165395, 76.781604588],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_ba67191b038948d993f88924c066efb9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_232bfd815f7f4ed8acf2276dab8b7f3c = $(`<div id="html_232bfd815f7f4ed8acf2276dab8b7f3c" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, SCO 68 &amp; 69, Sector 17 C, Sector 17, Chandigarh</div>`)[0];
+            popup_ba67191b038948d993f88924c066efb9.setContent(html_232bfd815f7f4ed8acf2276dab8b7f3c);
+        
+
+        circle_marker_f4f1238d92c746258b2506562f3f1d0d.bindPopup(popup_ba67191b038948d993f88924c066efb9)
+        ;
+
+        
+    
+    
+            var circle_marker_25ecfa7526ec4586881a534d39b96ea3 = L.circleMarker(
+                [30.7301523102, 76.7735237628],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_ddce3ec87f964b69958156b5d35022d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c3e0ae7487e54c34a7c20ff1240235d9 = $(`<div id="html_c3e0ae7487e54c34a7c20ff1240235d9" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, Hotel Aroma Complex, Himalaya Marg, Sector 22 C, Sector 22, Chandigarh</div>`)[0];
+            popup_ddce3ec87f964b69958156b5d35022d0.setContent(html_c3e0ae7487e54c34a7c20ff1240235d9);
+        
+
+        circle_marker_25ecfa7526ec4586881a534d39b96ea3.bindPopup(popup_ddce3ec87f964b69958156b5d35022d0)
+        ;
+
+        
+    
+    
+            var circle_marker_9848bd2be23842458aae7039f8f2699d = L.circleMarker(
+                [30.7259269494, 76.7669714615],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_224fb03309db4f5d96e6b470945f4e33 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d0a68200caa3490ea8302c737a0200b8 = $(`<div id="html_d0a68200caa3490ea8302c737a0200b8" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, SCO 301-302, Sector 35, Chandigarh</div>`)[0];
+            popup_224fb03309db4f5d96e6b470945f4e33.setContent(html_d0a68200caa3490ea8302c737a0200b8);
+        
+
+        circle_marker_9848bd2be23842458aae7039f8f2699d.bindPopup(popup_224fb03309db4f5d96e6b470945f4e33)
+        ;
+
+        
+    
+    
+            var circle_marker_e2844eb3f63b49fdb94482e6f467a348 = L.circleMarker(
+                [30.7250813362, 76.7652866989],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_b3f96e82349e4fed9b00d0d823515c44 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f59f19ca8acc4deea9b46091d8ec8032 = $(`<div id="html_f59f19ca8acc4deea9b46091d8ec8032" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, SCO 329-332, Sector 35 B, Sector 35, Chandigarh</div>`)[0];
+            popup_b3f96e82349e4fed9b00d0d823515c44.setContent(html_f59f19ca8acc4deea9b46091d8ec8032);
+        
+
+        circle_marker_e2844eb3f63b49fdb94482e6f467a348.bindPopup(popup_b3f96e82349e4fed9b00d0d823515c44)
+        ;
+
+        
+    
+    
+            var circle_marker_16a0ac25342343b7bc53c3c0fc2c10b7 = L.circleMarker(
+                [30.7242662664, 76.764446497],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_fa4ad62a15e347669d63e92ada7621f8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f6d7c494d5644367b6ff32cb76960fb8 = $(`<div id="html_f6d7c494d5644367b6ff32cb76960fb8" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, Sco 351-352, Sector 35, Chandigarh</div>`)[0];
+            popup_fa4ad62a15e347669d63e92ada7621f8.setContent(html_f6d7c494d5644367b6ff32cb76960fb8);
+        
+
+        circle_marker_16a0ac25342343b7bc53c3c0fc2c10b7.bindPopup(popup_fa4ad62a15e347669d63e92ada7621f8)
+        ;
+
+        
+    
+    
+            var circle_marker_68f42944171c4b75b9558fc0e5c25e87 = L.circleMarker(
+                [30.7389459772, 76.7846941575],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_748f7a7d890c40e0a3b5a48637976aaa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_817b72d50ffc4984a9df77f6895178ca = $(`<div id="html_817b72d50ffc4984a9df77f6895178ca" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, SCO 189-191, Sector 17 C, Sector 17, Chandigarh</div>`)[0];
+            popup_748f7a7d890c40e0a3b5a48637976aaa.setContent(html_817b72d50ffc4984a9df77f6895178ca);
+        
+
+        circle_marker_68f42944171c4b75b9558fc0e5c25e87.bindPopup(popup_748f7a7d890c40e0a3b5a48637976aaa)
+        ;
+
+        
+    
+    
+            var circle_marker_4fcc35373fe04996b81bcb4afc4baaac = L.circleMarker(
+                [30.7474705781, 76.7932903022],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_c9ae418e35d4419a8941edf9be9c2d44 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2fbf9ced19834586be8cee0d804e8562 = $(`<div id="html_2fbf9ced19834586be8cee0d804e8562" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, SCF 16, Inner Market, Sector 9 D, Sector 9, Chandigarh</div>`)[0];
+            popup_c9ae418e35d4419a8941edf9be9c2d44.setContent(html_2fbf9ced19834586be8cee0d804e8562);
+        
+
+        circle_marker_4fcc35373fe04996b81bcb4afc4baaac.bindPopup(popup_c9ae418e35d4419a8941edf9be9c2d44)
+        ;
+
+        
+    
+    
+            var circle_marker_f8487f5fbf2843799ff37a709fe05aa9 = L.circleMarker(
+                [30.7405378235, 76.7815506086],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_ed82546ee676448cbce98876eb290180 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0fbacfee0cb044588799b4b2b7f330a1 = $(`<div id="html_0fbacfee0cb044588799b4b2b7f330a1" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, SCO 87, Sector 17, Chandigarh</div>`)[0];
+            popup_ed82546ee676448cbce98876eb290180.setContent(html_0fbacfee0cb044588799b4b2b7f330a1);
+        
+
+        circle_marker_f8487f5fbf2843799ff37a709fe05aa9.bindPopup(popup_ed82546ee676448cbce98876eb290180)
+        ;
+
+        
+    
+    
+            var circle_marker_285c36fa1274463d82883c3fb7766458 = L.circleMarker(
+                [30.7408268544, 76.782245636],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_c2a6771ac8884ddab534e980178b536c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_86c8bac450dd41ab943bf952a4de0f96 = $(`<div id="html_86c8bac450dd41ab943bf952a4de0f96" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, SCO 73 &amp; 74, Sector 17 D, Sector 17, Chandigarh</div>`)[0];
+            popup_c2a6771ac8884ddab534e980178b536c.setContent(html_86c8bac450dd41ab943bf952a4de0f96);
+        
+
+        circle_marker_285c36fa1274463d82883c3fb7766458.bindPopup(popup_c2a6771ac8884ddab534e980178b536c)
+        ;
+
+        
+    
+    
+            var circle_marker_020b8d0b11894cc3aa14ec8d785984f9 = L.circleMarker(
+                [30.7215725675, 76.7601308227],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_7cf930cac2b141fda73a387eebf851c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_38bf784e469d4b249bc6e745df188e91 = $(`<div id="html_38bf784e469d4b249bc6e745df188e91" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, SCO 441 - 442, Sector 35 C, Sector 35, Chandigarh</div>`)[0];
+            popup_7cf930cac2b141fda73a387eebf851c7.setContent(html_38bf784e469d4b249bc6e745df188e91);
+        
+
+        circle_marker_020b8d0b11894cc3aa14ec8d785984f9.bindPopup(popup_7cf930cac2b141fda73a387eebf851c7)
+        ;
+
+        
+    
+    
+            var circle_marker_4ecf3f5d35c74ce0a38d7ef16f5b6445 = L.circleMarker(
+                [30.7095, 76.801],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_2e2dc0959ace4be69118089b5f94049a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bc2a8d0a06d44917b9110d78670bb908 = $(`<div id="html_bc2a8d0a06d44917b9110d78670bb908" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, Plot No 143/A, Ground Floor, City Emporium Mall, Phase 1, Chandigarh Industrial Area, Chandigarh</div>`)[0];
+            popup_2e2dc0959ace4be69118089b5f94049a.setContent(html_bc2a8d0a06d44917b9110d78670bb908);
+        
+
+        circle_marker_4ecf3f5d35c74ce0a38d7ef16f5b6445.bindPopup(popup_2e2dc0959ace4be69118089b5f94049a)
+        ;
+
+        
+    
+    
+            var circle_marker_1ef1d5cb3b3545ed9902ff90fb83f440 = L.circleMarker(
+                [30.7315036603, 76.754992716],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_8f28dc3af1c44487ae0b7c22cbf453fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_62ef09a3c3014b019b14e4c6e480f29a = $(`<div id="html_62ef09a3c3014b019b14e4c6e480f29a" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, Near Fragrance Garden, Opposite Daria Park, Sector 36- B, Near Sector 36, Chandigarh</div>`)[0];
+            popup_8f28dc3af1c44487ae0b7c22cbf453fb.setContent(html_62ef09a3c3014b019b14e4c6e480f29a);
+        
+
+        circle_marker_1ef1d5cb3b3545ed9902ff90fb83f440.bindPopup(popup_8f28dc3af1c44487ae0b7c22cbf453fb)
+        ;
+
+        
+    
+    
+            var circle_marker_abe780e2d8f540b19458e15da0c58da5 = L.circleMarker(
+                [30.7690955255, 76.7916729301],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_dd61e48a4aff493d8aa2795b40a4eae0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eb20f4e4a18643ecb0081e54fd7d7ed8 = $(`<div id="html_eb20f4e4a18643ecb0081e54fd7d7ed8" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, Shop 2, Adarsh Nagar, Nayagaon District, Nayagaon, Chandigarh</div>`)[0];
+            popup_dd61e48a4aff493d8aa2795b40a4eae0.setContent(html_eb20f4e4a18643ecb0081e54fd7d7ed8);
+        
+
+        circle_marker_abe780e2d8f540b19458e15da0c58da5.bindPopup(popup_dd61e48a4aff493d8aa2795b40a4eae0)
+        ;
+
+        
+    
+    
+            var circle_marker_8ca568d2dbdb4581b78281922da7932a = L.circleMarker(
+                [30.7397877226, 76.781129837],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_f61c926f8717497ea28a42b535d8bfde = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9bd559023ec64afab663ad2ad2fe329c = $(`<div id="html_9bd559023ec64afab663ad2ad2fe329c" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, Ground Floor, Near Neelam Theater, Sector 17, Chandigarh</div>`)[0];
+            popup_f61c926f8717497ea28a42b535d8bfde.setContent(html_9bd559023ec64afab663ad2ad2fe329c);
+        
+
+        circle_marker_8ca568d2dbdb4581b78281922da7932a.bindPopup(popup_f61c926f8717497ea28a42b535d8bfde)
+        ;
+
+        
+    
+    
+            var circle_marker_ace6b185e85c4ddc8a2f0740de2d944b = L.circleMarker(
+                [30.7255663974, 76.8052499369],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_ded0627f4cd8472ba5b03835db29dee0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_22165599f45a41adbe648676143eaae9 = $(`<div id="html_22165599f45a41adbe648676143eaae9" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, SCO 40, Madhya Marg, Sector 26, Chandigarh</div>`)[0];
+            popup_ded0627f4cd8472ba5b03835db29dee0.setContent(html_22165599f45a41adbe648676143eaae9);
+        
+
+        circle_marker_ace6b185e85c4ddc8a2f0740de2d944b.bindPopup(popup_ded0627f4cd8472ba5b03835db29dee0)
+        ;
+
+        
+    
+    
+            var circle_marker_d5859453f732472dabde40cf421b17b1 = L.circleMarker(
+                [30.7480137319, 76.7932564393],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_0c959c006dc741dc93e0c4c89a399e33 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dcc0c645f18a40c08f7a4da39912142f = $(`<div id="html_dcc0c645f18a40c08f7a4da39912142f" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, Booth 31-34, Inner Market, Sector 9 D, Sector 9, Chandigarh</div>`)[0];
+            popup_0c959c006dc741dc93e0c4c89a399e33.setContent(html_dcc0c645f18a40c08f7a4da39912142f);
+        
+
+        circle_marker_d5859453f732472dabde40cf421b17b1.bindPopup(popup_0c959c006dc741dc93e0c4c89a399e33)
+        ;
+
+        
+    
+    
+            var circle_marker_933d5193c2e747ff9b413d03b62c812f = L.circleMarker(
+                [30.719360427, 76.8016789109],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_1786d804e49548faa65cfee0e11bd08a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_be63938d1594481895835ca155a20691 = $(`<div id="html_be63938d1594481895835ca155a20691" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, Booth 165-166, Sector 28 D, Sector 28, Chandigarh</div>`)[0];
+            popup_1786d804e49548faa65cfee0e11bd08a.setContent(html_be63938d1594481895835ca155a20691);
+        
+
+        circle_marker_933d5193c2e747ff9b413d03b62c812f.bindPopup(popup_1786d804e49548faa65cfee0e11bd08a)
+        ;
+
+        
+    
+    
+            var circle_marker_1b4cba76cdc74acab28f5df73fc446e5 = L.circleMarker(
+                [30.7107497453, 76.7727120593],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_82d076433f344f8db2ebc6fe27e759c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_159c6b1eb72d4b9993764dff17828523 = $(`<div id="html_159c6b1eb72d4b9993764dff17828523" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, Shop 407, Sector 32, Chandigarh</div>`)[0];
+            popup_82d076433f344f8db2ebc6fe27e759c5.setContent(html_159c6b1eb72d4b9993764dff17828523);
+        
+
+        circle_marker_1b4cba76cdc74acab28f5df73fc446e5.bindPopup(popup_82d076433f344f8db2ebc6fe27e759c5)
+        ;
+
+        
+    
+    
+            var circle_marker_5441b6c8fbb8438a8b4763f31df2da4b = L.circleMarker(
+                [30.7402980685, 76.7806446925],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_89957724dd8846fe88678c3cee32fa7b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d088e5c0bae4ce1be6edcaed7c97a36 = $(`<div id="html_8d088e5c0bae4ce1be6edcaed7c97a36" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, SCO 12, Sector 17 C, Sector 17, Chandigarh</div>`)[0];
+            popup_89957724dd8846fe88678c3cee32fa7b.setContent(html_8d088e5c0bae4ce1be6edcaed7c97a36);
+        
+
+        circle_marker_5441b6c8fbb8438a8b4763f31df2da4b.bindPopup(popup_89957724dd8846fe88678c3cee32fa7b)
+        ;
+
+        
+    
+    
+            var circle_marker_fd8111d4146b4a4e9526aa45adca5cf4 = L.circleMarker(
+                [0.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_d2407d3471d64afa8706fdc5ebdb2442 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e8d7ee0647a491d87b38a042cb989f2 = $(`<div id="html_9e8d7ee0647a491d87b38a042cb989f2" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, None</div>`)[0];
+            popup_d2407d3471d64afa8706fdc5ebdb2442.setContent(html_9e8d7ee0647a491d87b38a042cb989f2);
+        
+
+        circle_marker_fd8111d4146b4a4e9526aa45adca5cf4.bindPopup(popup_d2407d3471d64afa8706fdc5ebdb2442)
+        ;
+
+        
+    
+    
+            var circle_marker_96a667c4bb784934a9783a592430a6e4 = L.circleMarker(
+                [30.7342233066, 76.7533662915],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_63b10f5157a7489785484b9020667302 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b2ed3f5fb644da4b29225e3f71d71e6 = $(`<div id="html_5b2ed3f5fb644da4b29225e3f71d71e6" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, Booth 158, Sector 36, Chandigarh</div>`)[0];
+            popup_63b10f5157a7489785484b9020667302.setContent(html_5b2ed3f5fb644da4b29225e3f71d71e6);
+        
+
+        circle_marker_96a667c4bb784934a9783a592430a6e4.bindPopup(popup_63b10f5157a7489785484b9020667302)
+        ;
+
+        
+    
+    
+            var circle_marker_2693abaa894e419a9c6464e93c7cfd8e = L.circleMarker(
+                [30.7622020692, 76.7697837576],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_509191f641d6435196649dcc69634005 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_23cbb4b7e6264b419adde47a9bc8fb7e = $(`<div id="html_23cbb4b7e6264b419adde47a9bc8fb7e" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, Inner Punjab University, Near Student Centre, Sector 14, Chandigarh</div>`)[0];
+            popup_509191f641d6435196649dcc69634005.setContent(html_23cbb4b7e6264b419adde47a9bc8fb7e);
+        
+
+        circle_marker_2693abaa894e419a9c6464e93c7cfd8e.bindPopup(popup_509191f641d6435196649dcc69634005)
+        ;
+
+        
+    
+    
+            var circle_marker_67fe74ff961242749e7fb47d431cbc96 = L.circleMarker(
+                [30.7527777935, 76.771305576],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_ef619b460904490cb5f3751b51167b2e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b1a7e379daea4557aa02f85b666149ee = $(`<div id="html_b1a7e379daea4557aa02f85b666149ee" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, Booth 363, Sector 15 D, Sector 15, Chandigarh</div>`)[0];
+            popup_ef619b460904490cb5f3751b51167b2e.setContent(html_b1a7e379daea4557aa02f85b666149ee);
+        
+
+        circle_marker_67fe74ff961242749e7fb47d431cbc96.bindPopup(popup_ef619b460904490cb5f3751b51167b2e)
+        ;
+
+        
+    
+    
+            var circle_marker_732601d5e1774f788a8fba8d131c8bde = L.circleMarker(
+                [30.7196561506, 76.8379095197],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_ae6050df83df403b9f8398ff8927ddd2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a47c423425774e2b8d2360ef66dbd15b = $(`<div id="html_a47c423425774e2b8d2360ef66dbd15b" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, Shop 1990, Opposite Shivalik Garden, Old Ropar Road, Manimajra, Chandigarh</div>`)[0];
+            popup_ae6050df83df403b9f8398ff8927ddd2.setContent(html_a47c423425774e2b8d2360ef66dbd15b);
+        
+
+        circle_marker_732601d5e1774f788a8fba8d131c8bde.bindPopup(popup_ae6050df83df403b9f8398ff8927ddd2)
+        ;
+
+        
+    
+    
+            var circle_marker_d0ef0bdeb02e4fb6878d0ee48c514853 = L.circleMarker(
+                [30.7057714389, 76.8012001365],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_089f85759d624037b5e35613440100a4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d0f029cedb39425597edd1a11e942731 = $(`<div id="html_d0f029cedb39425597edd1a11e942731" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, 320, 3rd Floor, Elante Mall, Phase 1, Chandigarh Industrial Area, Chandigarh</div>`)[0];
+            popup_089f85759d624037b5e35613440100a4.setContent(html_d0f029cedb39425597edd1a11e942731);
+        
+
+        circle_marker_d0ef0bdeb02e4fb6878d0ee48c514853.bindPopup(popup_089f85759d624037b5e35613440100a4)
+        ;
+
+        
+    
+    
+            var circle_marker_7ecbd6d8b2a54439aed5262d566719f1 = L.circleMarker(
+                [30.7548672906, 76.7876640335],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_75f0ff82fbeb4b398a065a6f5752ae54 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b15ec02aff24298a4263847cbe9bbd4 = $(`<div id="html_2b15ec02aff24298a4263847cbe9bbd4" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, SCO 01, Azaadi Rte, 10D, Sector 10, Chandigarh</div>`)[0];
+            popup_75f0ff82fbeb4b398a065a6f5752ae54.setContent(html_2b15ec02aff24298a4263847cbe9bbd4);
+        
+
+        circle_marker_7ecbd6d8b2a54439aed5262d566719f1.bindPopup(popup_75f0ff82fbeb4b398a065a6f5752ae54)
+        ;
+
+        
+    
+    
+            var circle_marker_305dcb7b115e4ac8ae8f68894e888de0 = L.circleMarker(
+                [30.7410083987, 76.7973907292],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_5a1dbcced2664591b5f625cd5a3a3a9f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d3077d9e0e8141f6bda5c7d67af6bd49 = $(`<div id="html_d3077d9e0e8141f6bda5c7d67af6bd49" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, Booth 20 &amp; 21, Inner Market, Sector 8 B, Sector 8, Chandigarh</div>`)[0];
+            popup_5a1dbcced2664591b5f625cd5a3a3a9f.setContent(html_d3077d9e0e8141f6bda5c7d67af6bd49);
+        
+
+        circle_marker_305dcb7b115e4ac8ae8f68894e888de0.bindPopup(popup_5a1dbcced2664591b5f625cd5a3a3a9f)
+        ;
+
+        
+    
+    
+            var circle_marker_b8eb431ddcc3424590c2718b0ba2eae9 = L.circleMarker(
+                [30.7547059411, 76.7872784659],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_2d146258128746d28be0cc4e8ffae1f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e9e22afd0e74c3da9e253f5450b837a = $(`<div id="html_9e9e22afd0e74c3da9e253f5450b837a" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, Coal Depot, Backide Market, Sector 10 D, Chandigarh</div>`)[0];
+            popup_2d146258128746d28be0cc4e8ffae1f1.setContent(html_9e9e22afd0e74c3da9e253f5450b837a);
+        
+
+        circle_marker_b8eb431ddcc3424590c2718b0ba2eae9.bindPopup(popup_2d146258128746d28be0cc4e8ffae1f1)
+        ;
+
+        
+    
+    
+            var circle_marker_a0405d1d4ffc470b81cda4b885401bff = L.circleMarker(
+                [30.7208401889, 76.7589835078],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_c489d5f986db45e99de87ea8b673bd28 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_578ba15e7a7d49d3a6b37793312f4b4d = $(`<div id="html_578ba15e7a7d49d3a6b37793312f4b4d" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, SCO 467, Sector 35 C, Sector 35, Chandigarh</div>`)[0];
+            popup_c489d5f986db45e99de87ea8b673bd28.setContent(html_578ba15e7a7d49d3a6b37793312f4b4d);
+        
+
+        circle_marker_a0405d1d4ffc470b81cda4b885401bff.bindPopup(popup_c489d5f986db45e99de87ea8b673bd28)
+        ;
+
+        
+    
+    
+            var circle_marker_950d9c54bd464eca80a2fdab03f65a89 = L.circleMarker(
+                [30.7348403101, 76.7976532504],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_84ccc87541c245b7a862cbca4630e61c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b5f8a87ea63a43f88ffc43717aa56149 = $(`<div id="html_b5f8a87ea63a43f88ffc43717aa56149" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, SCO 1A, Backside, Madhya Marg, Sector 7C, Sector 7, Chandigarh</div>`)[0];
+            popup_84ccc87541c245b7a862cbca4630e61c.setContent(html_b5f8a87ea63a43f88ffc43717aa56149);
+        
+
+        circle_marker_950d9c54bd464eca80a2fdab03f65a89.bindPopup(popup_84ccc87541c245b7a862cbca4630e61c)
+        ;
+
+        
+    
+    
+            var circle_marker_2856a47ae03a490182403c14255ac539 = L.circleMarker(
+                [30.7302203249, 76.7734945938],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_032cb0404039486e9eb4d5dbade6194d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fbe1d0a3ff934f45bb41f67356f8be48 = $(`<div id="html_fbe1d0a3ff934f45bb41f67356f8be48" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, Hotel Aroma Complex, Himalaya Marg, Sector 22 C, Sector 22, Chandigarh</div>`)[0];
+            popup_032cb0404039486e9eb4d5dbade6194d.setContent(html_fbe1d0a3ff934f45bb41f67356f8be48);
+        
+
+        circle_marker_2856a47ae03a490182403c14255ac539.bindPopup(popup_032cb0404039486e9eb4d5dbade6194d)
+        ;
+
+        
+    
+    
+            var circle_marker_211e2648f0044ad892cf77be39c665f7 = L.circleMarker(
+                [30.7331835272, 76.8031940237],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_97e1d0014d014639b199b2668efd2182 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_255d853c68114fa5aa4ced6d8ac6b113 = $(`<div id="html_255d853c68114fa5aa4ced6d8ac6b113" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, 178, Inner Market, Sector 7, Chandigarh</div>`)[0];
+            popup_97e1d0014d014639b199b2668efd2182.setContent(html_255d853c68114fa5aa4ced6d8ac6b113);
+        
+
+        circle_marker_211e2648f0044ad892cf77be39c665f7.bindPopup(popup_97e1d0014d014639b199b2668efd2182)
+        ;
+
+        
+    
+    
+            var circle_marker_85efed1a46ab46debed6e8d0b8ccdb54 = L.circleMarker(
+                [30.7260932467, 76.8059577048],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_7237fb3fa7dc4e948ffeebf9fd501eb9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_493f67c5e76c4912836876a14d78f40e = $(`<div id="html_493f67c5e76c4912836876a14d78f40e" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, SCO 41, Sector 26, Chandigarh</div>`)[0];
+            popup_7237fb3fa7dc4e948ffeebf9fd501eb9.setContent(html_493f67c5e76c4912836876a14d78f40e);
+        
+
+        circle_marker_85efed1a46ab46debed6e8d0b8ccdb54.bindPopup(popup_7237fb3fa7dc4e948ffeebf9fd501eb9)
+        ;
+
+        
+    
+    
+            var circle_marker_fbfdde8ef06e40e48a2ceedbdeb29311 = L.circleMarker(
+                [30.7471109712, 76.7936376482],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_8cccd5c920c445d2ba8090963e143bec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_113c5593474843d2ad7c148f22b5b010 = $(`<div id="html_113c5593474843d2ad7c148f22b5b010" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, SCS 2, Inner Market, Sector 9 D, Sector 9, Chandigarh</div>`)[0];
+            popup_8cccd5c920c445d2ba8090963e143bec.setContent(html_113c5593474843d2ad7c148f22b5b010);
+        
+
+        circle_marker_fbfdde8ef06e40e48a2ceedbdeb29311.bindPopup(popup_8cccd5c920c445d2ba8090963e143bec)
+        ;
+
+        
+    
+    
+            var circle_marker_aab7196291b747b48a7e09b75542d29b = L.circleMarker(
+                [30.7235344847, 76.7675417662],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_9f9f00538e244d3cac001845e460e04a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_42ca860de56244f5b7a481a0ddbbd893 = $(`<div id="html_42ca860de56244f5b7a481a0ddbbd893" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, 2nd Floor, Piccadily Cinema, Sector 34, Chandigarh</div>`)[0];
+            popup_9f9f00538e244d3cac001845e460e04a.setContent(html_42ca860de56244f5b7a481a0ddbbd893);
+        
+
+        circle_marker_aab7196291b747b48a7e09b75542d29b.bindPopup(popup_9f9f00538e244d3cac001845e460e04a)
+        ;
+
+        
+    
+    
+            var circle_marker_94eaa2d6845746e68fdfce217ddb23fa = L.circleMarker(
+                [30.706034, 76.800683],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_4180480c2e5a48b58181042771079031 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_90ce408b0ca14e51845bcad759d76c32 = $(`<div id="html_90ce408b0ca14e51845bcad759d76c32" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, Kf 8, 1st Floor, Opposite Zara Kids, Elante Mall, Chandigarh Industrial Area, Chandigarh</div>`)[0];
+            popup_4180480c2e5a48b58181042771079031.setContent(html_90ce408b0ca14e51845bcad759d76c32);
+        
+
+        circle_marker_94eaa2d6845746e68fdfce217ddb23fa.bindPopup(popup_4180480c2e5a48b58181042771079031)
+        ;
+
+        
+    
+    
+            var circle_marker_ee196bb17b9b40bd92156c9532c80c7b = L.circleMarker(
+                [30.7222204917, 76.7614383996],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_67d2c1cb47f74ca88340f551ee2d4e9b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_406e87b12b4c42e29ee0af6890f322c4 = $(`<div id="html_406e87b12b4c42e29ee0af6890f322c4" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, SCO 422, Sector 35 C, Sector 35, Chandigarh</div>`)[0];
+            popup_67d2c1cb47f74ca88340f551ee2d4e9b.setContent(html_406e87b12b4c42e29ee0af6890f322c4);
+        
+
+        circle_marker_ee196bb17b9b40bd92156c9532c80c7b.bindPopup(popup_67d2c1cb47f74ca88340f551ee2d4e9b)
+        ;
+
+        
+    
+    
+            var circle_marker_baf220f9538c425cb74138067e824dd9 = L.circleMarker(
+                [0.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_4e2e3bbc82a6420d9f45d20b3622942e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4dad83900184a0f9bf093a291846b7a = $(`<div id="html_c4dad83900184a0f9bf093a291846b7a" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, None</div>`)[0];
+            popup_4e2e3bbc82a6420d9f45d20b3622942e.setContent(html_c4dad83900184a0f9bf093a291846b7a);
+        
+
+        circle_marker_baf220f9538c425cb74138067e824dd9.bindPopup(popup_4e2e3bbc82a6420d9f45d20b3622942e)
+        ;
+
+        
+    
+    
+            var circle_marker_4a0084bc5b6d45f9940d0872163d1849 = L.circleMarker(
+                [30.7207839849, 76.7589979246],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_3d59d2a5ca96455a9092b1644e569dcf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_358ae7845d0b4387a0cec25b6217127a = $(`<div id="html_358ae7845d0b4387a0cec25b6217127a" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, Hotel Heritage, SCO 467 &amp; 468, Sector 35 C, Sector 35, Chandigarh</div>`)[0];
+            popup_3d59d2a5ca96455a9092b1644e569dcf.setContent(html_358ae7845d0b4387a0cec25b6217127a);
+        
+
+        circle_marker_4a0084bc5b6d45f9940d0872163d1849.bindPopup(popup_3d59d2a5ca96455a9092b1644e569dcf)
+        ;
+
+        
+    
+    
+            var circle_marker_9f0655e74bec431293e228429724d186 = L.circleMarker(
+                [30.7394502761, 76.7766706645],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_a276249a32694c39a87633dfd47d71f7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f822779f77c94bb38666a65110a932f5 = $(`<div id="html_f822779f77c94bb38666a65110a932f5" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, Hotel Shivalik View, Sector 17, Chandigarh</div>`)[0];
+            popup_a276249a32694c39a87633dfd47d71f7.setContent(html_f822779f77c94bb38666a65110a932f5);
+        
+
+        circle_marker_9f0655e74bec431293e228429724d186.bindPopup(popup_a276249a32694c39a87633dfd47d71f7)
+        ;
+
+        
+    
+    
+            var circle_marker_3fb137f39a0e4a5c8c3b5ec9be29db97 = L.circleMarker(
+                [30.7547655828, 76.7873827368],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_6c22f4f92acc4ab99e6f5cb7546fa97e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f7ea6d9619074afdabdf502391529927 = $(`<div id="html_f7ea6d9619074afdabdf502391529927" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, SCO 2, Sector 10, Chandigarh</div>`)[0];
+            popup_6c22f4f92acc4ab99e6f5cb7546fa97e.setContent(html_f7ea6d9619074afdabdf502391529927);
+        
+
+        circle_marker_3fb137f39a0e4a5c8c3b5ec9be29db97.bindPopup(popup_6c22f4f92acc4ab99e6f5cb7546fa97e)
+        ;
+
+        
+    
+    
+            var circle_marker_fd525e483a6b4f07bba846676bb65b01 = L.circleMarker(
+                [30.7449898971, 76.8101949245],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_10703275108c42b6b7827ba1a5c1c1fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_890c36facf8b40c9b6ae2889dd0dda70 = $(`<div id="html_890c36facf8b40c9b6ae2889dd0dda70" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, Sukhna Lake Complex, Sector 9, Chandigarh</div>`)[0];
+            popup_10703275108c42b6b7827ba1a5c1c1fb.setContent(html_890c36facf8b40c9b6ae2889dd0dda70);
+        
+
+        circle_marker_fd525e483a6b4f07bba846676bb65b01.bindPopup(popup_10703275108c42b6b7827ba1a5c1c1fb)
+        ;
+
+        
+    
+    
+            var circle_marker_9aa52a4257074e4c9eb31d0ff9c74405 = L.circleMarker(
+                [30.7216921802, 76.7603745684],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_07d39fe3f9f74627aea4c9f3f2e286fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0419a721e554414da23122043b34b2ab = $(`<div id="html_0419a721e554414da23122043b34b2ab" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, SCO 437 &amp; 438, Sector 35 C, Sector 35, Chandigarh</div>`)[0];
+            popup_07d39fe3f9f74627aea4c9f3f2e286fe.setContent(html_0419a721e554414da23122043b34b2ab);
+        
+
+        circle_marker_9aa52a4257074e4c9eb31d0ff9c74405.bindPopup(popup_07d39fe3f9f74627aea4c9f3f2e286fe)
+        ;
+
+        
+    
+    
+            var circle_marker_d7c2ef8e2c38481f818bb4609f523e8d = L.circleMarker(
+                [30.7250271521, 76.7660927027],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_c5cca83b763346a7931ac0a34ec41606 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a4f28a46da2494caf99c13f70f4ae6c = $(`<div id="html_2a4f28a46da2494caf99c13f70f4ae6c" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, Maya Hotel, SCO 325-328, Himalaya Marg, Sector 35 B, Sector 35, Chandigarh</div>`)[0];
+            popup_c5cca83b763346a7931ac0a34ec41606.setContent(html_2a4f28a46da2494caf99c13f70f4ae6c);
+        
+
+        circle_marker_d7c2ef8e2c38481f818bb4609f523e8d.bindPopup(popup_c5cca83b763346a7931ac0a34ec41606)
+        ;
+
+        
+    
+    
+            var circle_marker_a27c01ea8eb441be96a981cab82e3d2c = L.circleMarker(
+                [30.7051288814, 76.801789552],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_292c9c4bbd3a44ee8620ad209c2f6aa9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d5ebf2a33c24346a5d6bc7c0a3d75b4 = $(`<div id="html_0d5ebf2a33c24346a5d6bc7c0a3d75b4" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, 302 B&amp;C, Next to PVR, Third Floor, Elante Mall, Phase 1, Chandigarh Industrial Area, Chandigarh</div>`)[0];
+            popup_292c9c4bbd3a44ee8620ad209c2f6aa9.setContent(html_0d5ebf2a33c24346a5d6bc7c0a3d75b4);
+        
+
+        circle_marker_a27c01ea8eb441be96a981cab82e3d2c.bindPopup(popup_292c9c4bbd3a44ee8620ad209c2f6aa9)
+        ;
+
+        
+    
+    
+            var circle_marker_20988241782a439c8c19890db93013db = L.circleMarker(
+                [30.7403090189, 76.7984632775],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_ace6056625df4c7bbcb971d5db553cb6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4bacb8f438fa4783962795ea7a4f86eb = $(`<div id="html_4bacb8f438fa4783962795ea7a4f86eb" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, S.C.F. 38, Inner Market, Sector 8, Chandigarh</div>`)[0];
+            popup_ace6056625df4c7bbcb971d5db553cb6.setContent(html_4bacb8f438fa4783962795ea7a4f86eb);
+        
+
+        circle_marker_20988241782a439c8c19890db93013db.bindPopup(popup_ace6056625df4c7bbcb971d5db553cb6)
+        ;
+
+        
+    
+    
+            var circle_marker_9926ad0ea22e4d58bf41141de0b2228c = L.circleMarker(
+                [30.7273708729, 76.8035782501],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_d31e2a66970b4142abf70c8938978121 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_744e102dd6ac452b88a5442f20604afc = $(`<div id="html_744e102dd6ac452b88a5442f20604afc" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, SCO 23, Madhya Marg, Sector 26 D, Sector 26, Chandigarh</div>`)[0];
+            popup_d31e2a66970b4142abf70c8938978121.setContent(html_744e102dd6ac452b88a5442f20604afc);
+        
+
+        circle_marker_9926ad0ea22e4d58bf41141de0b2228c.bindPopup(popup_d31e2a66970b4142abf70c8938978121)
+        ;
+
+        
+    
+    
+            var circle_marker_9d6cbbcdb9e249efa6889ccf54a3cd44 = L.circleMarker(
+                [30.7296571851, 76.8014059961],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_57c6bd9d83cb4ab1a736cf888f1ccf5f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2de3c18d979e43e4aae2fd2b47cd4a8a = $(`<div id="html_2de3c18d979e43e4aae2fd2b47cd4a8a" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, SCO 43, Sector 7C, Sector 7, Chandigarh</div>`)[0];
+            popup_57c6bd9d83cb4ab1a736cf888f1ccf5f.setContent(html_2de3c18d979e43e4aae2fd2b47cd4a8a);
+        
+
+        circle_marker_9d6cbbcdb9e249efa6889ccf54a3cd44.bindPopup(popup_57c6bd9d83cb4ab1a736cf888f1ccf5f)
+        ;
+
+        
+    
+    
+            var circle_marker_2b21784de2b942ea80bc459b53006708 = L.circleMarker(
+                [30.7094018517, 76.7735006288],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_284d7fd13a274e67b084595e5b02dae3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_058396951a1a43f887c25eb999d8a2c3 = $(`<div id="html_058396951a1a43f887c25eb999d8a2c3" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, 322 D, Sector 32, Chandigarh</div>`)[0];
+            popup_284d7fd13a274e67b084595e5b02dae3.setContent(html_058396951a1a43f887c25eb999d8a2c3);
+        
+
+        circle_marker_2b21784de2b942ea80bc459b53006708.bindPopup(popup_284d7fd13a274e67b084595e5b02dae3)
+        ;
+
+        
+    
+    
+            var circle_marker_e3895480585e434baffc52903314d9d8 = L.circleMarker(
+                [30.7398165395, 76.781604588],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_79227ac5020b43998b81db8d3c99bf08 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5edef905ef9445ab9e5107146f9143c = $(`<div id="html_d5edef905ef9445ab9e5107146f9143c" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, SCO 68 &amp; 69, Sector 17 C, Sector 17, Chandigarh</div>`)[0];
+            popup_79227ac5020b43998b81db8d3c99bf08.setContent(html_d5edef905ef9445ab9e5107146f9143c);
+        
+
+        circle_marker_e3895480585e434baffc52903314d9d8.bindPopup(popup_79227ac5020b43998b81db8d3c99bf08)
+        ;
+
+        
+    
+    
+            var circle_marker_9c522a7d375d4e3c937cc4e79bb7642f = L.circleMarker(
+                [30.7247323097, 76.7652954161],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_5945fddc740144e4853d4938e190a624 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb850c1042944077b7ac92add900ee40 = $(`<div id="html_cb850c1042944077b7ac92add900ee40" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, SCO 333 &amp; 334, Sector 35 B, Sector 35, Chandigarh</div>`)[0];
+            popup_5945fddc740144e4853d4938e190a624.setContent(html_cb850c1042944077b7ac92add900ee40);
+        
+
+        circle_marker_9c522a7d375d4e3c937cc4e79bb7642f.bindPopup(popup_5945fddc740144e4853d4938e190a624)
+        ;
+
+        
+    
+    
+            var circle_marker_f2c458d9c6eb40faa9cd6cf0860cc7a9 = L.circleMarker(
+                [30.7149063047, 76.7517623305],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_eaf67a5935b04b67ac88c918dbea8773 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_94d73f54509d4755a3dc97b654c97b32 = $(`<div id="html_94d73f54509d4755a3dc97b654c97b32" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, SCO 413, Sector 44 D, Sector 44, Chandigarh</div>`)[0];
+            popup_eaf67a5935b04b67ac88c918dbea8773.setContent(html_94d73f54509d4755a3dc97b654c97b32);
+        
+
+        circle_marker_f2c458d9c6eb40faa9cd6cf0860cc7a9.bindPopup(popup_eaf67a5935b04b67ac88c918dbea8773)
+        ;
+
+        
+    
+    
+            var circle_marker_ca0188c31ba04174afe3d219c7a4035e = L.circleMarker(
+                [30.705304, 76.801229],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_dca867a4f14346f5add9562dbeb9daab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5956dc00ffc14602bbc22cb08266a3e1 = $(`<div id="html_5956dc00ffc14602bbc22cb08266a3e1" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, 306, 3rd Floor, Elante Mall, Phase 1, Chandigarh Industrial Area, Chandigarh</div>`)[0];
+            popup_dca867a4f14346f5add9562dbeb9daab.setContent(html_5956dc00ffc14602bbc22cb08266a3e1);
+        
+
+        circle_marker_ca0188c31ba04174afe3d219c7a4035e.bindPopup(popup_dca867a4f14346f5add9562dbeb9daab)
+        ;
+
+        
+    
+    
+            var circle_marker_5c54dddf334745cb86cc2bd7efb75c42 = L.circleMarker(
+                [30.759460164, 76.7829359695],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_e2967baab9e34b1383dea6c0fe18c3fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72de01bc9e9947b29288cb88925f2205 = $(`<div id="html_72de01bc9e9947b29288cb88925f2205" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, Booth 41, Sector 11 D, Chandigarh</div>`)[0];
+            popup_e2967baab9e34b1383dea6c0fe18c3fe.setContent(html_72de01bc9e9947b29288cb88925f2205);
+        
+
+        circle_marker_5c54dddf334745cb86cc2bd7efb75c42.bindPopup(popup_e2967baab9e34b1383dea6c0fe18c3fe)
+        ;
+
+        
+    
+    
+            var circle_marker_34a4db88a52b4580a04fa380026ba682 = L.circleMarker(
+                [30.7597206152, 76.7829409987],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_c25b18ebaee84e84b626c4430ab2929a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c2b0a8f2e7304b93ab24f4116c2ad5bf = $(`<div id="html_c2b0a8f2e7304b93ab24f4116c2ad5bf" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, SCO 36, Sector 11 D, Sector 11, Chandigarh</div>`)[0];
+            popup_c25b18ebaee84e84b626c4430ab2929a.setContent(html_c2b0a8f2e7304b93ab24f4116c2ad5bf);
+        
+
+        circle_marker_34a4db88a52b4580a04fa380026ba682.bindPopup(popup_c25b18ebaee84e84b626c4430ab2929a)
+        ;
+
+        
+    
+    
+            var circle_marker_d629e275aec64d97b497e1f37a0152e4 = L.circleMarker(
+                [30.7048293656, 76.8010673672],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_a269d67bb29446cf98795e9622eeb475 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_33afa2ca9bf24e808ff88f0ece4c8914 = $(`<div id="html_33afa2ca9bf24e808ff88f0ece4c8914" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, 48 A, Courtyard, Elante Mall, Phase 1, Chandigarh Industrial Area, Chandigarh</div>`)[0];
+            popup_a269d67bb29446cf98795e9622eeb475.setContent(html_33afa2ca9bf24e808ff88f0ece4c8914);
+        
+
+        circle_marker_d629e275aec64d97b497e1f37a0152e4.bindPopup(popup_a269d67bb29446cf98795e9622eeb475)
+        ;
+
+        
+    
+    
+            var circle_marker_a964f0034b104a58aba237f6865a757c = L.circleMarker(
+                [30.7055445696, 76.7584809288],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_18a154f4b90f451c8f66695c365c037b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b717871fe994165a8b8c7f8a83d88db = $(`<div id="html_1b717871fe994165a8b8c7f8a83d88db" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, SCO 537, Kesho Ram Complex, Village Burail, Sector 45, Near Sector 46, Chandigarh</div>`)[0];
+            popup_18a154f4b90f451c8f66695c365c037b.setContent(html_1b717871fe994165a8b8c7f8a83d88db);
+        
+
+        circle_marker_a964f0034b104a58aba237f6865a757c.bindPopup(popup_18a154f4b90f451c8f66695c365c037b)
+        ;
+
+        
+    
+    
+            var circle_marker_490ee296b17f4707bffc69162f35d6e6 = L.circleMarker(
+                [30.7534237791, 76.7881317437],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_ac027cb52a8b4a72a46331b8b223a8e5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_49cfbb58362c47289af65f0a23e526fd = $(`<div id="html_49cfbb58362c47289af65f0a23e526fd" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, Hotel Mountview, Sector 10 D, Sector 10, Chandigarh</div>`)[0];
+            popup_ac027cb52a8b4a72a46331b8b223a8e5.setContent(html_49cfbb58362c47289af65f0a23e526fd);
+        
+
+        circle_marker_490ee296b17f4707bffc69162f35d6e6.bindPopup(popup_ac027cb52a8b4a72a46331b8b223a8e5)
+        ;
+
+        
+    
+    
+            var circle_marker_7e3bf3cadf6f4dd5a4b6f9fb33d8cbf0 = L.circleMarker(
+                [30.7078345702, 76.8028175086],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_5a6cc358eb8c4d3bb9b6267a4ff8bff7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b0df682397f2418bb0eaf1618b54129b = $(`<div id="html_b0df682397f2418bb0eaf1618b54129b" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, Hotel Hometel, 147 &amp; 148, Phase 1, Chandigarh Industrial Area, Chandigarh</div>`)[0];
+            popup_5a6cc358eb8c4d3bb9b6267a4ff8bff7.setContent(html_b0df682397f2418bb0eaf1618b54129b);
+        
+
+        circle_marker_7e3bf3cadf6f4dd5a4b6f9fb33d8cbf0.bindPopup(popup_5a6cc358eb8c4d3bb9b6267a4ff8bff7)
+        ;
+
+        
+    
+    
+            var circle_marker_b1c9e430fc0e4fbbbb0120e9df46cd95 = L.circleMarker(
+                [30.7310468721, 76.77550558],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_dc9b95a38f2b4b10959a8c8465da71af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_808a69c234404521aba95a7d84cb12f5 = $(`<div id="html_808a69c234404521aba95a7d84cb12f5" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, SCO 1121, Sector 22 B, Sector 22, Chandigarh</div>`)[0];
+            popup_dc9b95a38f2b4b10959a8c8465da71af.setContent(html_808a69c234404521aba95a7d84cb12f5);
+        
+
+        circle_marker_b1c9e430fc0e4fbbbb0120e9df46cd95.bindPopup(popup_dc9b95a38f2b4b10959a8c8465da71af)
+        ;
+
+        
+    
+    
+            var circle_marker_98a564bd0ab74a1db7ea60b85b240d4f = L.circleMarker(
+                [30.7056584367, 76.8006043509],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_b84bb1cab0c24a13bf1ad409868da3a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2aa4ddd8c9a6493a801474d70f3a6a1b = $(`<div id="html_2aa4ddd8c9a6493a801474d70f3a6a1b" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, 3rd Floor, #308, Elante Mall, Phase 1, Chandigarh Industrial Area, Chandigarh</div>`)[0];
+            popup_b84bb1cab0c24a13bf1ad409868da3a2.setContent(html_2aa4ddd8c9a6493a801474d70f3a6a1b);
+        
+
+        circle_marker_98a564bd0ab74a1db7ea60b85b240d4f.bindPopup(popup_b84bb1cab0c24a13bf1ad409868da3a2)
+        ;
+
+        
+    
+    
+            var circle_marker_bd9e7e4b6ebb4b83b2d435a28dd7da6c = L.circleMarker(
+                [30.740942697, 76.7973045632],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_de7d9d20b5fd472f899582555a5aba29 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7d5f5170dc89488492bc75150a928554 = $(`<div id="html_7d5f5170dc89488492bc75150a928554" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, Booth 19, Sector 8 B, Sector 8, Chandigarh</div>`)[0];
+            popup_de7d9d20b5fd472f899582555a5aba29.setContent(html_7d5f5170dc89488492bc75150a928554);
+        
+
+        circle_marker_bd9e7e4b6ebb4b83b2d435a28dd7da6c.bindPopup(popup_de7d9d20b5fd472f899582555a5aba29)
+        ;
+
+        
+    
+    
+            var circle_marker_f8ac9f37051f4779acbb0393d5f37a35 = L.circleMarker(
+                [30.7060663393, 76.8009315804],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_772e3ceb4f7b4ccd81c1fd39845b5e15 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c495ede575d74e7487a065d61774a091 = $(`<div id="html_c495ede575d74e7487a065d61774a091" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, Third Floor, Elante Mall, Chandigarh Industrial Area, Chandigarh</div>`)[0];
+            popup_772e3ceb4f7b4ccd81c1fd39845b5e15.setContent(html_c495ede575d74e7487a065d61774a091);
+        
+
+        circle_marker_f8ac9f37051f4779acbb0393d5f37a35.bindPopup(popup_772e3ceb4f7b4ccd81c1fd39845b5e15)
+        ;
+
+        
+    
+    
+            var circle_marker_6409371bb9424fbaa31677ea89f993e7 = L.circleMarker(
+                [30.7399496734, 76.7809343711],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_6616b9bbfde04b2499c7f0d6bb20f223 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_161dc5705b6b4c07bde09cd2a5fd538e = $(`<div id="html_161dc5705b6b4c07bde09cd2a5fd538e" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, Beside Neelam Theatre, Plaza, Sector 17, Chandigarh</div>`)[0];
+            popup_6616b9bbfde04b2499c7f0d6bb20f223.setContent(html_161dc5705b6b4c07bde09cd2a5fd538e);
+        
+
+        circle_marker_6409371bb9424fbaa31677ea89f993e7.bindPopup(popup_6616b9bbfde04b2499c7f0d6bb20f223)
+        ;
+
+        
+    
+    
+            var circle_marker_5e4c72df2abb4d5cad12bdd17060f09f = L.circleMarker(
+                [30.7249914137, 76.7659887671],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_8314f60083f84efcbf7f0bfb2a239063 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75da5a02669e4436aed8d8234d5bd536 = $(`<div id="html_75da5a02669e4436aed8d8234d5bd536" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, SCO 324, Sector 35 B, Chandigarh</div>`)[0];
+            popup_8314f60083f84efcbf7f0bfb2a239063.setContent(html_75da5a02669e4436aed8d8234d5bd536);
+        
+
+        circle_marker_5e4c72df2abb4d5cad12bdd17060f09f.bindPopup(popup_8314f60083f84efcbf7f0bfb2a239063)
+        ;
+
+        
+    
+    
+            var circle_marker_a536b565da6a41a29cff350045b1e6dd = L.circleMarker(
+                [30.7048460855, 76.8012517691],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_8988bf95b4ad47b4bde36838d86d8c3e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e38ec7b28f654bda8cacdcff5c51f70d = $(`<div id="html_e38ec7b28f654bda8cacdcff5c51f70d" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, Shop 45, Courtyard, Elante Mall, Phase 1, Chandigarh Industrial Area, Chandigarh</div>`)[0];
+            popup_8988bf95b4ad47b4bde36838d86d8c3e.setContent(html_e38ec7b28f654bda8cacdcff5c51f70d);
+        
+
+        circle_marker_a536b565da6a41a29cff350045b1e6dd.bindPopup(popup_8988bf95b4ad47b4bde36838d86d8c3e)
+        ;
+
+        
+    
+    
+            var circle_marker_e2b18212e6a845318d02997b55c29778 = L.circleMarker(
+                [30.7007980647, 76.7922013253],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_41b488705fdb450d8d7ef1fa2398eb96 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21d60ca88f82467eaeeacc0d0c3fc443 = $(`<div id="html_21d60ca88f82467eaeeacc0d0c3fc443" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, The Altius Hotel, 25/9, Phase 2, Chandigarh Industrial Area, Chandigarh</div>`)[0];
+            popup_41b488705fdb450d8d7ef1fa2398eb96.setContent(html_21d60ca88f82467eaeeacc0d0c3fc443);
+        
+
+        circle_marker_e2b18212e6a845318d02997b55c29778.bindPopup(popup_41b488705fdb450d8d7ef1fa2398eb96)
+        ;
+
+        
+    
+    
+            var circle_marker_24e494b9eb5542b892834f2df9cb3df2 = L.circleMarker(
+                [30.7205761738, 76.7584524304],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_f61751d596514ae9a183d34efafcdd20 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aa8c6e0566e04c12b7dbc074b62abfea = $(`<div id="html_aa8c6e0566e04c12b7dbc074b62abfea" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, SCO 471 &amp; 472, Sector 35C, Sector 35, Chandigarh</div>`)[0];
+            popup_f61751d596514ae9a183d34efafcdd20.setContent(html_aa8c6e0566e04c12b7dbc074b62abfea);
+        
+
+        circle_marker_24e494b9eb5542b892834f2df9cb3df2.bindPopup(popup_f61751d596514ae9a183d34efafcdd20)
+        ;
+
+        
+    
+    
+            var circle_marker_dc908bf2043e4fbfbf09b7ed71f89937 = L.circleMarker(
+                [30.723978627, 76.7600483447],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_ef2e45ea6b32407dba95e9a1e473ef19 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eaf51c1cab7643f6bd6e3eee9447cfcb = $(`<div id="html_eaf51c1cab7643f6bd6e3eee9447cfcb" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, Shop 8, Sector 35 C, Sector 35, Chandigarh</div>`)[0];
+            popup_ef2e45ea6b32407dba95e9a1e473ef19.setContent(html_eaf51c1cab7643f6bd6e3eee9447cfcb);
+        
+
+        circle_marker_dc908bf2043e4fbfbf09b7ed71f89937.bindPopup(popup_ef2e45ea6b32407dba95e9a1e473ef19)
+        ;
+
+        
+    
+    
+            var circle_marker_bcd4bf923c194b19bd4907566f45b5f5 = L.circleMarker(
+                [30.7399231619, 76.7921319231],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_b6795ad31ee54e7b8dda4296a58cf5bd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_34cd48b7a43e4a4496370e900414d2cf = $(`<div id="html_34cd48b7a43e4a4496370e900414d2cf" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, SCO 123, Madhya Marg, Sector 8 C, Sector 8, Chandigarh</div>`)[0];
+            popup_b6795ad31ee54e7b8dda4296a58cf5bd.setContent(html_34cd48b7a43e4a4496370e900414d2cf);
+        
+
+        circle_marker_bcd4bf923c194b19bd4907566f45b5f5.bindPopup(popup_b6795ad31ee54e7b8dda4296a58cf5bd)
+        ;
+
+        
+    
+    
+            var circle_marker_bfc43d3f50024c53a574a28f20c874bb = L.circleMarker(
+                [30.7052064267, 76.8010301515],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_a428ae72f6c745d4adc0780192adcf4a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_caf046670b15474ea061aea536f7ecdf = $(`<div id="html_caf046670b15474ea061aea536f7ecdf" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, 51A, Courtyard, Ground Floor, Elante Mall, Phase 1, Chandigarh Industrial Area, Chandigarh</div>`)[0];
+            popup_a428ae72f6c745d4adc0780192adcf4a.setContent(html_caf046670b15474ea061aea536f7ecdf);
+        
+
+        circle_marker_bfc43d3f50024c53a574a28f20c874bb.bindPopup(popup_a428ae72f6c745d4adc0780192adcf4a)
+        ;
+
+        
+    
+    
+            var circle_marker_7568a2c9fff44c5e81e2d3c67c4612e0 = L.circleMarker(
+                [30.7207514154, 76.7588695139],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_a63a875137094f9d8802e5ba891b9d51 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_85cc48a006204bcbbdee03aa3671f7da = $(`<div id="html_85cc48a006204bcbbdee03aa3671f7da" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, SCO 468 C, Sector 35 C, Sector 35, Chandigarh</div>`)[0];
+            popup_a63a875137094f9d8802e5ba891b9d51.setContent(html_85cc48a006204bcbbdee03aa3671f7da);
+        
+
+        circle_marker_7568a2c9fff44c5e81e2d3c67c4612e0.bindPopup(popup_a63a875137094f9d8802e5ba891b9d51)
+        ;
+
+        
+    
+    
+            var circle_marker_63e815bcfbf94c5a9abd0ff60851b225 = L.circleMarker(
+                [30.7381183451, 76.7662995681],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_19ad372acdbd4914b7edbb69a2f8265c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_62dc094d5b944606ba367eff549be2ae = $(`<div id="html_62dc094d5b944606ba367eff549be2ae" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, SCO 27, Sector 23, Chandigarh</div>`)[0];
+            popup_19ad372acdbd4914b7edbb69a2f8265c.setContent(html_62dc094d5b944606ba367eff549be2ae);
+        
+
+        circle_marker_63e815bcfbf94c5a9abd0ff60851b225.bindPopup(popup_19ad372acdbd4914b7edbb69a2f8265c)
+        ;
+
+        
+    
+    
+            var circle_marker_93593bb973ef409a8dd274c7baf53158 = L.circleMarker(
+                [30.7387382053, 76.7485587671],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_9dca5bb62e6848ba915e566865351ad0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dd701ba90b2a4bf4b0fb57be09df03a6 = $(`<div id="html_dd701ba90b2a4bf4b0fb57be09df03a6" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, Booth 255, Sector 37C, Sector 37, Chandigarh</div>`)[0];
+            popup_9dca5bb62e6848ba915e566865351ad0.setContent(html_dd701ba90b2a4bf4b0fb57be09df03a6);
+        
+
+        circle_marker_93593bb973ef409a8dd274c7baf53158.bindPopup(popup_9dca5bb62e6848ba915e566865351ad0)
+        ;
+
+        
+    
+    
+            var circle_marker_3a16db96954d4753ac8b8e2067cf6fb4 = L.circleMarker(
+                [30.7187488008, 76.8019310385],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_2e8bf4a711da4f27bb5ad23ce8209d3e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd17bb7b596b4e51ac7cf0b8ac7d133f = $(`<div id="html_fd17bb7b596b4e51ac7cf0b8ac7d133f" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, Hotel White Palace, SCO 143, Sector 28 D, Sector 28, Chandigarh</div>`)[0];
+            popup_2e8bf4a711da4f27bb5ad23ce8209d3e.setContent(html_fd17bb7b596b4e51ac7cf0b8ac7d133f);
+        
+
+        circle_marker_3a16db96954d4753ac8b8e2067cf6fb4.bindPopup(popup_2e8bf4a711da4f27bb5ad23ce8209d3e)
+        ;
+
+        
+    
+    
+            var circle_marker_32b9ad396d9348a8ad91f464e3edfbc4 = L.circleMarker(
+                [30.7378820421, 76.7835183442],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_502079e3e9984923bcc2b19bc197b6b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_83f57197b82d4f76a57a7a9fb126ea31 = $(`<div id="html_83f57197b82d4f76a57a7a9fb126ea31" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, SCO 47, Sector 17 E, Sector 17, Chandigarh</div>`)[0];
+            popup_502079e3e9984923bcc2b19bc197b6b1.setContent(html_83f57197b82d4f76a57a7a9fb126ea31);
+        
+
+        circle_marker_32b9ad396d9348a8ad91f464e3edfbc4.bindPopup(popup_502079e3e9984923bcc2b19bc197b6b1)
+        ;
+
+        
+    
+    
+            var circle_marker_886ca9ced99f4ee78ea016942584c5d5 = L.circleMarker(
+                [30.7296998386, 76.791206561],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_a4815084dd4341ebbeb85e4f9ee6b1c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f981b7405769476b812773dd924e0a22 = $(`<div id="html_f981b7405769476b812773dd924e0a22" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, SCF 31, Sector 19 D, Sector 19, Chandigarh</div>`)[0];
+            popup_a4815084dd4341ebbeb85e4f9ee6b1c4.setContent(html_f981b7405769476b812773dd924e0a22);
+        
+
+        circle_marker_886ca9ced99f4ee78ea016942584c5d5.bindPopup(popup_a4815084dd4341ebbeb85e4f9ee6b1c4)
+        ;
+
+        
+    
+    
+            var circle_marker_8a8da042250a42c1b2281ff76310e38d = L.circleMarker(
+                [30.7383036408, 76.7841389403],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_6ce350e7d7eb4924a02999c32df58efe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b307a6f8e7343f793d3df1e72967740 = $(`<div id="html_2b307a6f8e7343f793d3df1e72967740" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, SCO 108 &amp; 109, Sector 17 C, Sector 17, Chandigarh</div>`)[0];
+            popup_6ce350e7d7eb4924a02999c32df58efe.setContent(html_2b307a6f8e7343f793d3df1e72967740);
+        
+
+        circle_marker_8a8da042250a42c1b2281ff76310e38d.bindPopup(popup_6ce350e7d7eb4924a02999c32df58efe)
+        ;
+
+        
+    
+    
+            var circle_marker_4d7588fd7dbd431891b8c5a7841d4d5b = L.circleMarker(
+                [30.7285507816, 76.8026763573],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_20ae2a4713354a1787d8d5afc435c224 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e4c9ab3f6d6c4d9193088823bc152bd8 = $(`<div id="html_e4c9ab3f6d6c4d9193088823bc152bd8" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, SCO 7, Madhya Marg, Sector 26, Chandigarh</div>`)[0];
+            popup_20ae2a4713354a1787d8d5afc435c224.setContent(html_e4c9ab3f6d6c4d9193088823bc152bd8);
+        
+
+        circle_marker_4d7588fd7dbd431891b8c5a7841d4d5b.bindPopup(popup_20ae2a4713354a1787d8d5afc435c224)
+        ;
+
+        
+    
+    
+            var circle_marker_9a806895773c47efb5fd39d6136966a2 = L.circleMarker(
+                [30.7096047864, 76.8009949476],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_3812c3a9c82149a2baf983ecefd2cc87 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1e157b83d7d74d92b693be2c14ab1775 = $(`<div id="html_1e157b83d7d74d92b693be2c14ab1775" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, 4th Floor, City Emporium Mall, Phase 1, Chandigarh Industrial Area, Chandigarh</div>`)[0];
+            popup_3812c3a9c82149a2baf983ecefd2cc87.setContent(html_1e157b83d7d74d92b693be2c14ab1775);
+        
+
+        circle_marker_9a806895773c47efb5fd39d6136966a2.bindPopup(popup_3812c3a9c82149a2baf983ecefd2cc87)
+        ;
+
+        
+    
+    
+            var circle_marker_f3e096a4474444b9b0ffb95e92dc51a8 = L.circleMarker(
+                [30.7053759307, 76.8015193194],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_c24cf3d65c5948e5a179d0cdd7669285 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d0a74023df8a4414b017f9192b5c2c73 = $(`<div id="html_d0a74023df8a4414b017f9192b5c2c73" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, 3rd Floor, Near PVR Cinema Ticket Window, Elante Mall, Chandigarh Industrial Area, Chandigarh</div>`)[0];
+            popup_c24cf3d65c5948e5a179d0cdd7669285.setContent(html_d0a74023df8a4414b017f9192b5c2c73);
+        
+
+        circle_marker_f3e096a4474444b9b0ffb95e92dc51a8.bindPopup(popup_c24cf3d65c5948e5a179d0cdd7669285)
+        ;
+
+        
+    
+    
+            var circle_marker_bf29adc4cb7d4a16a0c867f503a567d5 = L.circleMarker(
+                [30.7055157424, 76.8034203351],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_94fc026ef48c412eb65cd94b98f98633 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_86b23c05a5eb4140914e0d0e0f6e42fb = $(`<div id="html_86b23c05a5eb4140914e0d0e0f6e42fb" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, Lemon Tree Hotel, Plot 3MW, Phase 1, Chandigarh Industrial Area, Chandigarh</div>`)[0];
+            popup_94fc026ef48c412eb65cd94b98f98633.setContent(html_86b23c05a5eb4140914e0d0e0f6e42fb);
+        
+
+        circle_marker_bf29adc4cb7d4a16a0c867f503a567d5.bindPopup(popup_94fc026ef48c412eb65cd94b98f98633)
+        ;
+
+        
+    
+    
+            var circle_marker_a54aba4aeeb248d4be13ac8961fa0ed3 = L.circleMarker(
+                [30.7461234861, 76.743366681],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_89136ab61e67498ca7ac2279602b1ab1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b8c05e9a0a947e9a7e5b7d855248cf5 = $(`<div id="html_0b8c05e9a0a947e9a7e5b7d855248cf5" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, SCO 314, Sector 38 D, Sector 38, Chandigarh</div>`)[0];
+            popup_89136ab61e67498ca7ac2279602b1ab1.setContent(html_0b8c05e9a0a947e9a7e5b7d855248cf5);
+        
+
+        circle_marker_a54aba4aeeb248d4be13ac8961fa0ed3.bindPopup(popup_89136ab61e67498ca7ac2279602b1ab1)
+        ;
+
+        
+    
+    
+            var circle_marker_35ca24b6e1084e809a6a38eb43b23378 = L.circleMarker(
+                [30.7053759307, 76.8015193194],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_2d98d9c8ad214cfc8ac338142c9da98b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_06e25c3c1dc84ef38dff7216bbe78b07 = $(`<div id="html_06e25c3c1dc84ef38dff7216bbe78b07" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, 3rd Floor, Near PVR Cinema Ticket Window, Elante Mall, Chandigarh Industrial Area, Chandigarh</div>`)[0];
+            popup_2d98d9c8ad214cfc8ac338142c9da98b.setContent(html_06e25c3c1dc84ef38dff7216bbe78b07);
+        
+
+        circle_marker_35ca24b6e1084e809a6a38eb43b23378.bindPopup(popup_2d98d9c8ad214cfc8ac338142c9da98b)
+        ;
+
+        
+    
+    
+            var circle_marker_b2718cc3c0e44eb5aef868f6e1e76097 = L.circleMarker(
+                [30.7255511222, 76.7257901654],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_cd54b79a2c274272b18af31e6679c9fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5f5c7053a03d4f7eb5a1191da22f4f9c = $(`<div id="html_5f5c7053a03d4f7eb5a1191da22f4f9c" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, SCF 34, Sector 54, Sahibzada Ajit Singh Nagar, Phase 2, Mohali</div>`)[0];
+            popup_cd54b79a2c274272b18af31e6679c9fc.setContent(html_5f5c7053a03d4f7eb5a1191da22f4f9c);
+        
+
+        circle_marker_b2718cc3c0e44eb5aef868f6e1e76097.bindPopup(popup_cd54b79a2c274272b18af31e6679c9fc)
+        ;
+
+        
+    
+    
+            var circle_marker_cccdab90e654406898f62d29cac3228c = L.circleMarker(
+                [30.7118321399, 76.8361630663],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_0b73387284ec4f2c83949a81a3904de3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_022eb2de8f8842a68608f226981161c2 = $(`<div id="html_022eb2de8f8842a68608f226981161c2" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, Shop 1055/3, 1st Floor, H.S Complex, Gobindpura, Manimajra, Chandigarh</div>`)[0];
+            popup_0b73387284ec4f2c83949a81a3904de3.setContent(html_022eb2de8f8842a68608f226981161c2);
+        
+
+        circle_marker_cccdab90e654406898f62d29cac3228c.bindPopup(popup_0b73387284ec4f2c83949a81a3904de3)
+        ;
+
+        
+    
+    
+            var circle_marker_4e13f3a085da4e95a1836230d1091a6a = L.circleMarker(
+                [30.7432845899, 76.7898540571],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_933b3c97447842a786200f03ff7fe84d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0220d62122484aba8c7b5a1eb2ad2917 = $(`<div id="html_0220d62122484aba8c7b5a1eb2ad2917" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, Booth 123, Sector 9 C, Near Sector 9, Chandigarh</div>`)[0];
+            popup_933b3c97447842a786200f03ff7fe84d.setContent(html_0220d62122484aba8c7b5a1eb2ad2917);
+        
+
+        circle_marker_4e13f3a085da4e95a1836230d1091a6a.bindPopup(popup_933b3c97447842a786200f03ff7fe84d)
+        ;
+
+        
+    
+    
+            var circle_marker_f5eba717aa09457294b037088cadaeb6 = L.circleMarker(
+                [30.7543506831, 76.7877203599],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_2847029d474a465f94f95095e5009d12 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5dec13e794da4e1b87021033de2e0e9d = $(`<div id="html_5dec13e794da4e1b87021033de2e0e9d" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, 9, Main Market, Sector 10 D, Chandigarh</div>`)[0];
+            popup_2847029d474a465f94f95095e5009d12.setContent(html_5dec13e794da4e1b87021033de2e0e9d);
+        
+
+        circle_marker_f5eba717aa09457294b037088cadaeb6.bindPopup(popup_2847029d474a465f94f95095e5009d12)
+        ;
+
+        
+    
+    
+            var circle_marker_54f3ea4731b4404b8a7918a5fefccf99 = L.circleMarker(
+                [30.7408012076, 76.7973964289],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_71d69650ebb948829cef04d0e5e02ce8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7524dc5704a944d5af455a8625003914 = $(`<div id="html_7524dc5704a944d5af455a8625003914" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, Booth 26, Sector 8, Chandigarh</div>`)[0];
+            popup_71d69650ebb948829cef04d0e5e02ce8.setContent(html_7524dc5704a944d5af455a8625003914);
+        
+
+        circle_marker_54f3ea4731b4404b8a7918a5fefccf99.bindPopup(popup_71d69650ebb948829cef04d0e5e02ce8)
+        ;
+
+        
+    
+    
+            var circle_marker_fb6ccea1dfb64050ba25f3941b3999d4 = L.circleMarker(
+                [30.7315904066, 76.7726087943],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_7ac27996ace448baa2f2500be0d1b8b4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cc19d6de659442d9a8f13f159d1488c1 = $(`<div id="html_cc19d6de659442d9a8f13f159d1488c1" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, Bay Shop 44-45, Sector 22C, Sector 22, Chandigarh</div>`)[0];
+            popup_7ac27996ace448baa2f2500be0d1b8b4.setContent(html_cc19d6de659442d9a8f13f159d1488c1);
+        
+
+        circle_marker_fb6ccea1dfb64050ba25f3941b3999d4.bindPopup(popup_7ac27996ace448baa2f2500be0d1b8b4)
+        ;
+
+        
+    
+    
+            var circle_marker_b38a11d3676249be8fab69c3ff23b3d7 = L.circleMarker(
+                [30.7449164179, 76.7441039532],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_9ef259644ffc429290cc04d0049cf5c8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_42500bddf4c5448bbc26f6204da55c9b = $(`<div id="html_42500bddf4c5448bbc26f6204da55c9b" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, Booth 238, Sector 38 C&amp;D, Near Sector 38, Chandigarh</div>`)[0];
+            popup_9ef259644ffc429290cc04d0049cf5c8.setContent(html_42500bddf4c5448bbc26f6204da55c9b);
+        
+
+        circle_marker_b38a11d3676249be8fab69c3ff23b3d7.bindPopup(popup_9ef259644ffc429290cc04d0049cf5c8)
+        ;
+
+        
+    
+    
+            var circle_marker_4218f3baefb8458492273ca6f0b2f1bb = L.circleMarker(
+                [30.7245962725, 76.7686830461],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_3900e159cbf14e4ab9a833848558e19d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb365cdde4b2407d9cf88cb27b7ed6b5 = $(`<div id="html_fb365cdde4b2407d9cf88cb27b7ed6b5" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, SCO 13-15, Sector 34 A, Sector 34, Chandigarh</div>`)[0];
+            popup_3900e159cbf14e4ab9a833848558e19d.setContent(html_fb365cdde4b2407d9cf88cb27b7ed6b5);
+        
+
+        circle_marker_4218f3baefb8458492273ca6f0b2f1bb.bindPopup(popup_3900e159cbf14e4ab9a833848558e19d)
+        ;
+
+        
+    
+    
+            var circle_marker_355ee5fde4e34d78be7ee7e70d237923 = L.circleMarker(
+                [30.7097869661, 76.8102133647],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_d3161ad37d264c9fa11b0b3f387def12 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d9c868d65ff41f390a0ba93b36790b2 = $(`<div id="html_1d9c868d65ff41f390a0ba93b36790b2" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, Godrej Eternia, Phase 1, Chandigarh Industrial Area, Chandigarh</div>`)[0];
+            popup_d3161ad37d264c9fa11b0b3f387def12.setContent(html_1d9c868d65ff41f390a0ba93b36790b2);
+        
+
+        circle_marker_355ee5fde4e34d78be7ee7e70d237923.bindPopup(popup_d3161ad37d264c9fa11b0b3f387def12)
+        ;
+
+        
+    
+    
+            var circle_marker_3df9f598ffee43278b628c0f41ddecfe = L.circleMarker(
+                [30.705812085, 76.8011937663],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_d36c4d7b466b417485b73d94fbc2f2e3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ac07fe2d50174a10aa002d4da53c896f = $(`<div id="html_ac07fe2d50174a10aa002d4da53c896f" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, 3rd Floor, Opposite KFC, Elante Mall, Chandigarh Industrial Area, Chandigarh</div>`)[0];
+            popup_d36c4d7b466b417485b73d94fbc2f2e3.setContent(html_ac07fe2d50174a10aa002d4da53c896f);
+        
+
+        circle_marker_3df9f598ffee43278b628c0f41ddecfe.bindPopup(popup_d36c4d7b466b417485b73d94fbc2f2e3)
+        ;
+
+        
+    
+    
+            var circle_marker_4b3c388f19eb4b1e83153dfaa2802969 = L.circleMarker(
+                [30.7187488008, 76.8019310385],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_37c70d50d4dd42c2b1844c0763e38431 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bfb5524e5b064435899e6ad1e3f6a02c = $(`<div id="html_bfb5524e5b064435899e6ad1e3f6a02c" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, Hotel White Palace, SCO 143, Sector 28 D, Sector 28, Chandigarh</div>`)[0];
+            popup_37c70d50d4dd42c2b1844c0763e38431.setContent(html_bfb5524e5b064435899e6ad1e3f6a02c);
+        
+
+        circle_marker_4b3c388f19eb4b1e83153dfaa2802969.bindPopup(popup_37c70d50d4dd42c2b1844c0763e38431)
+        ;
+
+        
+    
+    
+            var circle_marker_99e85099211d4cc594c5aaecd55de84b = L.circleMarker(
+                [30.7225724096, 76.7618896812],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_7a42948dd2eb4c6ca47a466ac8165299 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a68573089aae46728faecfac32c96373 = $(`<div id="html_a68573089aae46728faecfac32c96373" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, SCO 411 &amp; 412, Sector 35 C, Sector 35, Chandigarh</div>`)[0];
+            popup_7a42948dd2eb4c6ca47a466ac8165299.setContent(html_a68573089aae46728faecfac32c96373);
+        
+
+        circle_marker_99e85099211d4cc594c5aaecd55de84b.bindPopup(popup_7a42948dd2eb4c6ca47a466ac8165299)
+        ;
+
+        
+    
+    
+            var circle_marker_9e661e9cd89245d9b24c57a90ef05e3d = L.circleMarker(
+                [30.7213013, 76.7595234],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_0ae1c2d5b56941f89c376786d81e002b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a59a9ad35e149aab28d1dfb2b6b8ce0 = $(`<div id="html_0a59a9ad35e149aab28d1dfb2b6b8ce0" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, Ground Floor, SCO 497, Sector 35 C, Chandigarh</div>`)[0];
+            popup_0ae1c2d5b56941f89c376786d81e002b.setContent(html_0a59a9ad35e149aab28d1dfb2b6b8ce0);
+        
+
+        circle_marker_9e661e9cd89245d9b24c57a90ef05e3d.bindPopup(popup_0ae1c2d5b56941f89c376786d81e002b)
+        ;
+
+        
+    
+    
+            var circle_marker_16296525fd9c43aea79730c2cff1ae26 = L.circleMarker(
+                [30.7221939753, 76.7611668259],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_c7964519c10d4513a1d367e05dc4f87f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea139d514a6f48c4bbe223259c3623d2 = $(`<div id="html_ea139d514a6f48c4bbe223259c3623d2" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, SCO 425 &amp; 426, Sector 35 C, Sector 35, Chandigarh</div>`)[0];
+            popup_c7964519c10d4513a1d367e05dc4f87f.setContent(html_ea139d514a6f48c4bbe223259c3623d2);
+        
+
+        circle_marker_16296525fd9c43aea79730c2cff1ae26.bindPopup(popup_c7964519c10d4513a1d367e05dc4f87f)
+        ;
+
+        
+    
+    
+            var circle_marker_c143baadc70449939d29ea3b5e153aae = L.circleMarker(
+                [30.7160561007, 76.804971993],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_2f294b37ff0e41bdb400a855a2bec075 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f231ba0b8284ba68ce7d94b9188ca12 = $(`<div id="html_0f231ba0b8284ba68ce7d94b9188ca12" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, SCO 14 &amp; 15, Sector 28 C, Sector 28, Chandigarh</div>`)[0];
+            popup_2f294b37ff0e41bdb400a855a2bec075.setContent(html_0f231ba0b8284ba68ce7d94b9188ca12);
+        
+
+        circle_marker_c143baadc70449939d29ea3b5e153aae.bindPopup(popup_2f294b37ff0e41bdb400a855a2bec075)
+        ;
+
+        
+    
+    
+            var circle_marker_3c7520cc87c04a729b7c58bbcf10b7ad = L.circleMarker(
+                [30.7701366457, 76.7942461744],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_df93af4ad4f24591bd6438a6b0ceede9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_13cd891a59aa488e8d0cd9ba6db18275 = $(`<div id="html_13cd891a59aa488e8d0cd9ba6db18275" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, Main Road, Nayagaon, Chandigarh</div>`)[0];
+            popup_df93af4ad4f24591bd6438a6b0ceede9.setContent(html_13cd891a59aa488e8d0cd9ba6db18275);
+        
+
+        circle_marker_3c7520cc87c04a729b7c58bbcf10b7ad.bindPopup(popup_df93af4ad4f24591bd6438a6b0ceede9)
+        ;
+
+        
+    
+    
+            var circle_marker_a883044d193c41c599780193d7e28bb1 = L.circleMarker(
+                [30.705694, 76.801344],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_d464cae93eac4debbbc591d63af2ec2d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fc3551c2828048f39409ce0404902f41 = $(`<div id="html_fc3551c2828048f39409ce0404902f41" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, Unit 38, Third Flour, Plot 178-178-A, Industrial And Business Park, Phase 1, Chandigarh Industrial Area, Chandigarh</div>`)[0];
+            popup_d464cae93eac4debbbc591d63af2ec2d.setContent(html_fc3551c2828048f39409ce0404902f41);
+        
+
+        circle_marker_a883044d193c41c599780193d7e28bb1.bindPopup(popup_d464cae93eac4debbbc591d63af2ec2d)
+        ;
+
+        
+    
+    
+            var circle_marker_678e7294b78d4e5bb47d911a69a88c53 = L.circleMarker(
+                [30.7376411277, 76.7657567561],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_e85977c47f6a42c3a72d9bb85d80b2f2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_89339e8c50e1463387f5ad8f7d03370c = $(`<div id="html_89339e8c50e1463387f5ad8f7d03370c" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, SCO 14, Sector 23, Chandigarh</div>`)[0];
+            popup_e85977c47f6a42c3a72d9bb85d80b2f2.setContent(html_89339e8c50e1463387f5ad8f7d03370c);
+        
+
+        circle_marker_678e7294b78d4e5bb47d911a69a88c53.bindPopup(popup_e85977c47f6a42c3a72d9bb85d80b2f2)
+        ;
+
+        
+    
+    
+            var circle_marker_0d39f9b708074a079e5ffbc6d2dbcd80 = L.circleMarker(
+                [30.746915031, 76.7760115117],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_50056a1d98f04bd880c4d78fd162107e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bfa69c8996f2456aae60e81b1f0eb331 = $(`<div id="html_bfa69c8996f2456aae60e81b1f0eb331" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, SCO 8, 1st Floor, Sector 16, Chandigarh</div>`)[0];
+            popup_50056a1d98f04bd880c4d78fd162107e.setContent(html_bfa69c8996f2456aae60e81b1f0eb331);
+        
+
+        circle_marker_0d39f9b708074a079e5ffbc6d2dbcd80.bindPopup(popup_50056a1d98f04bd880c4d78fd162107e)
+        ;
+
+        
+    
+    
+            var circle_marker_c7791bcf245c4c349c88b4fcdc8c1f11 = L.circleMarker(
+                [30.7216296358, 76.7716364935],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_0216dfb4d14b43dfb5f607b0682dfee8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5caf0c1c4a44496c918cf0428344b576 = $(`<div id="html_5caf0c1c4a44496c918cf0428344b576" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, The Toy Hotel, SCO 165-167, Sector 34 A, Sector 34, Chandigarh</div>`)[0];
+            popup_0216dfb4d14b43dfb5f607b0682dfee8.setContent(html_5caf0c1c4a44496c918cf0428344b576);
+        
+
+        circle_marker_c7791bcf245c4c349c88b4fcdc8c1f11.bindPopup(popup_0216dfb4d14b43dfb5f607b0682dfee8)
+        ;
+
+        
+    
+    
+            var circle_marker_d1d35e51b56e4a45a7c3d482e696839b = L.circleMarker(
+                [30.7048460855, 76.8012517691],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_a33d8ccdb8e9490ea12cd0f17ef842df = L.popup({"maxWidth": "100%"});
+
+        
+            var html_23dea75f2c914a3f9a457aa5701436ea = $(`<div id="html_23dea75f2c914a3f9a457aa5701436ea" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, Shop 45, Courtyard, Elante Mall, Phase 1, Chandigarh Industrial Area, Chandigarh</div>`)[0];
+            popup_a33d8ccdb8e9490ea12cd0f17ef842df.setContent(html_23dea75f2c914a3f9a457aa5701436ea);
+        
+
+        circle_marker_d1d35e51b56e4a45a7c3d482e696839b.bindPopup(popup_a33d8ccdb8e9490ea12cd0f17ef842df)
+        ;
+
+        
+    
+    
+            var circle_marker_756b73ce3c164291b3ae24c6313fe321 = L.circleMarker(
+                [30.7071113118, 76.7966980487],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_55fce521ce8a42a89bb5547c82515fcd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_78134dbb01d043b4be5ccb22bbd4e8b2 = $(`<div id="html_78134dbb01d043b4be5ccb22bbd4e8b2" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, G2, Plot 177D, Ground Floor, Centra Mall, Phase 1, Chandigarh Industrial Area, Chandigarh</div>`)[0];
+            popup_55fce521ce8a42a89bb5547c82515fcd.setContent(html_78134dbb01d043b4be5ccb22bbd4e8b2);
+        
+
+        circle_marker_756b73ce3c164291b3ae24c6313fe321.bindPopup(popup_55fce521ce8a42a89bb5547c82515fcd)
+        ;
+
+        
+    
+    
+            var circle_marker_c731ab7d3bb04ce3bc59b9b396097892 = L.circleMarker(
+                [30.7462710188, 76.767296344],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_bdb82878a1544a11939b3018950d700f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e4440fb0b8647358db9c58e5b058d0f = $(`<div id="html_8e4440fb0b8647358db9c58e5b058d0f" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, Hotel Parkview, Udyan Path, Sector 24, Chandigarh</div>`)[0];
+            popup_bdb82878a1544a11939b3018950d700f.setContent(html_8e4440fb0b8647358db9c58e5b058d0f);
+        
+
+        circle_marker_c731ab7d3bb04ce3bc59b9b396097892.bindPopup(popup_bdb82878a1544a11939b3018950d700f)
+        ;
+
+        
+    
+    
+            var circle_marker_b3fe0a43133a4ad0b408b543b91361ef = L.circleMarker(
+                [30.7226438882, 76.7620817944],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_1f9efb26ecaa4306ace048f9c2fd7387 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_91104dc6646949b4bfe57773de122900 = $(`<div id="html_91104dc6646949b4bfe57773de122900" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, SCO 405-406, Sector 35 C, Sector 35, Chandigarh</div>`)[0];
+            popup_1f9efb26ecaa4306ace048f9c2fd7387.setContent(html_91104dc6646949b4bfe57773de122900);
+        
+
+        circle_marker_b3fe0a43133a4ad0b408b543b91361ef.bindPopup(popup_1f9efb26ecaa4306ace048f9c2fd7387)
+        ;
+
+        
+    
+    
+            var circle_marker_c3a1cc69ad404e07ba5b9e3afd36cc1a = L.circleMarker(
+                [30.7431650041, 76.7448033392],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_200aeac02f8642a1a085dfde65384e11 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31210d0730db474c964a8c0e42b297e1 = $(`<div id="html_31210d0730db474c964a8c0e42b297e1" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, SCO 80, Sector 38 C, Sector 38, Chandigarh</div>`)[0];
+            popup_200aeac02f8642a1a085dfde65384e11.setContent(html_31210d0730db474c964a8c0e42b297e1);
+        
+
+        circle_marker_c3a1cc69ad404e07ba5b9e3afd36cc1a.bindPopup(popup_200aeac02f8642a1a085dfde65384e11)
+        ;
+
+        
+    
+    
+            var circle_marker_9967daf4547a4340bde65020da063020 = L.circleMarker(
+                [30.7139628794, 76.8426352367],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_a33e2387edeb4cc7806af90c33a50e4e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ac59d0ae0ace4003a2c3e643bc671e73 = $(`<div id="html_ac59d0ae0ace4003a2c3e643bc671e73" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, Booth 902, Behind Local Bus Stand, Near Fun Republic Cinemas, Manimajra, Chandigarh</div>`)[0];
+            popup_a33e2387edeb4cc7806af90c33a50e4e.setContent(html_ac59d0ae0ace4003a2c3e643bc671e73);
+        
+
+        circle_marker_9967daf4547a4340bde65020da063020.bindPopup(popup_a33e2387edeb4cc7806af90c33a50e4e)
+        ;
+
+        
+    
+    
+            var circle_marker_77cbc0d740b1469f926c20667e96eba8 = L.circleMarker(
+                [30.7216296358, 76.7716364935],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_6224422462e3457c91919dc07d76abb6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1107725503a043c98bb5ab27f70b375b = $(`<div id="html_1107725503a043c98bb5ab27f70b375b" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, The Toy Hotel, SCO 165-167, Sector 34 A, Sector 34, Chandigarh</div>`)[0];
+            popup_6224422462e3457c91919dc07d76abb6.setContent(html_1107725503a043c98bb5ab27f70b375b);
+        
+
+        circle_marker_77cbc0d740b1469f926c20667e96eba8.bindPopup(popup_6224422462e3457c91919dc07d76abb6)
+        ;
+
+        
+    
+    
+            var circle_marker_1658fea181d741fda3167cd930ecb425 = L.circleMarker(
+                [30.7055445696, 76.7584809288],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_39107c1af9d94d7ab07be1e5a06909f5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7900d71b6fd4a899ad78cd5ac2defdc = $(`<div id="html_b7900d71b6fd4a899ad78cd5ac2defdc" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, SCO 537, Kesho Ram Complex, Village Burail, Sector 45, Near Sector 46, Chandigarh</div>`)[0];
+            popup_39107c1af9d94d7ab07be1e5a06909f5.setContent(html_b7900d71b6fd4a899ad78cd5ac2defdc);
+        
+
+        circle_marker_1658fea181d741fda3167cd930ecb425.bindPopup(popup_39107c1af9d94d7ab07be1e5a06909f5)
+        ;
+
+        
+    
+    
+            var circle_marker_45cb62af9b7843c0a137ffb8c6aad6c1 = L.circleMarker(
+                [30.7171502534, 76.7675243318],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_5c70f02ba4054cebbff58a6da31a1562 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_34e29dfba91c4c45a63a621569d19925 = $(`<div id="html_34e29dfba91c4c45a63a621569d19925" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, Shop 245, Near Furniture Market, Sector 34 C, Sector 34, Chandigarh</div>`)[0];
+            popup_5c70f02ba4054cebbff58a6da31a1562.setContent(html_34e29dfba91c4c45a63a621569d19925);
+        
+
+        circle_marker_45cb62af9b7843c0a137ffb8c6aad6c1.bindPopup(popup_5c70f02ba4054cebbff58a6da31a1562)
+        ;
+
+        
+    
+    
+            var circle_marker_086e353ddfa04ae0a78d5b83225354aa = L.circleMarker(
+                [30.7071113118, 76.7966980487],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_febd942b5f2b43a1888de39279759b6c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4304150523724448ac78349550de7170 = $(`<div id="html_4304150523724448ac78349550de7170" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, G2, Plot 177D, Ground Floor, Centra Mall, Phase 1, Chandigarh Industrial Area, Chandigarh</div>`)[0];
+            popup_febd942b5f2b43a1888de39279759b6c.setContent(html_4304150523724448ac78349550de7170);
+        
+
+        circle_marker_086e353ddfa04ae0a78d5b83225354aa.bindPopup(popup_febd942b5f2b43a1888de39279759b6c)
+        ;
+
+        
+    
+    
+            var circle_marker_14c9c49523da4f708d436ad86e6567e1 = L.circleMarker(
+                [30.7151412228, 76.7516885698],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_9fb323451a4a45fcb47aa6872b785f95 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d8f7ef890a044b7a4e1b7a752153c7d = $(`<div id="html_8d8f7ef890a044b7a4e1b7a752153c7d" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, Booth 424, Sector 44 D, Sector 44, Chandigarh</div>`)[0];
+            popup_9fb323451a4a45fcb47aa6872b785f95.setContent(html_8d8f7ef890a044b7a4e1b7a752153c7d);
+        
+
+        circle_marker_14c9c49523da4f708d436ad86e6567e1.bindPopup(popup_9fb323451a4a45fcb47aa6872b785f95)
+        ;
+
+        
+    
+    
+            var circle_marker_98bfd93700324699be5bc713d5ae6aa5 = L.circleMarker(
+                [30.7663212625, 76.7834727466],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_96fd3bd0292a4bbea08618424f07f00a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e835e99473ce4571b0af2b821f21bcf0 = $(`<div id="html_e835e99473ce4571b0af2b821f21bcf0" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, Shop 113, PEC Market, Sector 12, Chandigarh</div>`)[0];
+            popup_96fd3bd0292a4bbea08618424f07f00a.setContent(html_e835e99473ce4571b0af2b821f21bcf0);
+        
+
+        circle_marker_98bfd93700324699be5bc713d5ae6aa5.bindPopup(popup_96fd3bd0292a4bbea08618424f07f00a)
+        ;
+
+        
+    
+    
+            var circle_marker_114225f9b3514f5e80f034f01c8e6d41 = L.circleMarker(
+                [30.7051389709, 76.8017794937],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_33b2bb1652e747e5a2c01e4d8797a108 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f8a827022c347ff9056243b40713803 = $(`<div id="html_4f8a827022c347ff9056243b40713803" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, 178-178A, 3rd Floor, Elante Mall, Chandigarh Industrial Area, Chandigarh</div>`)[0];
+            popup_33b2bb1652e747e5a2c01e4d8797a108.setContent(html_4f8a827022c347ff9056243b40713803);
+        
+
+        circle_marker_114225f9b3514f5e80f034f01c8e6d41.bindPopup(popup_33b2bb1652e747e5a2c01e4d8797a108)
+        ;
+
+        
+    
+    
+            var circle_marker_448f232941d3450cb57400f8368df479 = L.circleMarker(
+                [30.7055261202, 76.8034800142],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8ed06ffecb584f4aa8943925b40d3d38);
+        
+    
+        var popup_2ffdb875ae144a709292b3a513c65aa1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_92e83eb1966141bd9fe0622772b44993 = $(`<div id="html_92e83eb1966141bd9fe0622772b44993" style="width: 100.0%; height: 100.0%;">Citrus @ lemontree, Lemon Tree Hotel, Plot 3MW, Phase 1, Chandigarh Industrial Area, Chandigarh</div>`)[0];
+            popup_2ffdb875ae144a709292b3a513c65aa1.setContent(html_92e83eb1966141bd9fe0622772b44993);
+        
+
+        circle_marker_448f232941d3450cb57400f8368df479.bindPopup(popup_2ffdb875ae144a709292b3a513c65aa1)
+        ;
+
+        
+    
+</script>
