@@ -32,3 +32,6 @@ jupyter notebook
 ```
 deactivate
 ```
+
+### Maps
+Maps generated in the notebooks have been placed inside the `maps` folder. Download/clone the repository and access the maps on your local machine.
